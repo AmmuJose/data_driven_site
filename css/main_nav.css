@@ -1,0 +1,279 @@
+body   {background-color:#000;
+       	color:#000;
+       	font-size:13px;margin:0px;
+       	font-family:Verdana, georgia, sans-serif; }
+
+.common{ min-width:785px;
+         max-width:52%;		  
+         margin :0px auto;}
+
+.wrapper {font-family:sans-serif;        
+          min-height:280px;          
+          background-color:#F6E094;}  
+  
+ 
+/*  ---------------------css selector------  */
+     a[href ^='http://maps'] { 
+       padding-right: 22px;
+      background: transparent url(images/icon1.gif) no-repeat center right; }
+    
+    a[href $='garroway.com']{
+       padding-right: 18px;
+      background: transparent url(images/icon2.gif) no-repeat center right;}
+        
+        
+/* -----------------header---------------- */
+    
+    .headerwrap{ height:100px;                 
+		             background-color:#330000;
+              	 background-image:url(images/fg.gif);}
+    .headerimg{	float:left;margin-top:10px;
+                margin-left:5px;}
+  
+    .head{float:left;
+          margin-top:25px;
+          margin-left:155px;
+          }
+         
+     .accountnav {text-decoration :none;
+		  color:#e9c538;float:right;
+		  font-weight:bold;
+		  font-size:11px;
+		  margin-top:80px;
+		  margin-right:20px;}  
+ 
+/* --------------main navigation bar -------- */
+
+.menuwrapper {
+	      border-top: 1px solid #000;
+	      border-bottom: 1px solid #333;
+	      background-color: #df7318;}	
+             
+.clearit {
+	clear: both;
+	height: 0;
+	line-height: 0.0;
+	font-size: 0;
+}
+#menubar {font-size:12px;}
+	
+
+#menubar, #menubar ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;}
+	
+
+#menubar a {
+	display: block;
+	text-decoration: none;
+	padding: 5px 25px;
+	border-right: 1px solid #333;
+	font-size:12px;font-weight:bold;
+	color: #ffffdd;
+}
+#menubar a.trigger {
+	padding: 5px 25px;
+	
+}
+#menubar li {
+	float: left;
+	width: 9em;
+}
+#menubar li {position: relative;}
+
+/* hide from IE mac \*/
+#menubar li {position: static; width: auto;}
+/* end hiding from IE5 mac */
+
+#menubar li ul, #menubar ul li  {
+	width: 12em;
+}
+#menubar ul li a  {
+	color: #565656;
+	border-right: 0;
+	padding: 3px 10px;
+}
+#menubar li ul {
+	position: absolute;
+	display: none;
+	background-color: #a1964c;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	
+}
+#menubar li:hover a, #menubar a:focus,
+#menubar a:active, #menubar li.p7hvr a {
+	color: #000000;
+	background-color: #C19674;
+}
+#menubar li:hover ul, #menubar li.p7hvr ul {
+	display: block;
+}
+#menubar li:hover ul a, #menubar li.p7hvr ul a {
+	color: #000000;
+	background-color: transparent;
+}
+#menubar ul a:hover {
+	background-color: #606060!important;
+	color: #FFFFFF !important;}
+
+/* ------------------footer ------------------ */
+
+.footer1{ height:30px;margin-top:0px;
+          background-color:#330000;
+          background-image:url(images/fg.gif);}
+
+ .symbol{float:right;margin:6px;}  
+.footer {font-size:.69em; font-style:italic;color:#9a9;text-align:center;}         
+.footer a{color:#9a9;}
+.footernav {color:#aaa; text-align:center; margin:6px auto;}
+.footernav a{text-decoration:none; color:#aca; font-size:11px;margin:6px;}
+
+/* --------------- admin_nav -----------------*/
+
+.adminmenu{float:left;width:200px;}
+.admin_nav{list-style-type:square; font-weight:bold; font-size:12px;line-height:140%;}
+.admin_nav a {text-decoration:none;color:#555;}
+.admin_nav a:link{color:#555; } 
+.admin_nav a:hover{color:#000; }
+
+/*---------------- Customer_nav ------------- */
+
+.customer_nav{float:right;
+              margin:0px 20px;}
+.customer_nav a {text-decoration:none;color:#666;
+                  font-weight:bold;
+		  font-size:11px;} 
+.customer_nav a:link{color:#666; }   
+.customer_nav a:hover{color:#000; } 
+
+/*---------------- Home------------------- */
+
+.moving_img {border:2px solid #300;	float:right; margin:5px 25px 5px 10px;}
+						 
+.welcome {margin-left:31%;}
+.para {text-indent:40px;line-height:130%;}
+.newsbrd{width:600px; margin:0px auto;}
+.newsbrd td{background-color:#f1c95a; border:2px solid #400; text-align:center; }
+             
+.hed{font-weight:bold;color:#000;}
+.cont{color:#000;text-indent:20px;}
+
+/*----------------- about us-----------------*/
+.aboutwrap{height:310px;}
+.dla1 {line-height:130%;}
+.dda {margin-bottom:20px;}
+ dd{margin-left:20px;}
+ .dta{margin-top:15px;margin-left:12px;}     
+.pgh1  {line-height:130%; text-indent:25px;}
+.amid{width:240px;margin:0px 10px 5px 2px;float:left;}	
+
+/*------------------dinner menu--------------*/			 
+.menuhed{color:#105;font-weight:bold;}  
+dt{font-weight:bold;font-size:12px;}
+.dright dd{font-size:11px;margin-bottom:5px;}
+.dleft dd{font-size:11px;margin-bottom:5px;}
+.dmid dd{font-size:11px;margin-bottom:5px;}
+.dimg{border:2px solid #400;}
+.menuwrap{height:440px;}
+.dleft{width:220px;margin:0px 5px 5px 10px;float:left;}
+.dmid{width:260px;margin:0px 15px 5px 0px;float:right;}
+.dright{width:264px;margin:0px 10px 5px 0px;float:right;}
+
+/*-----------------Wine list--------------*/
+.wimg{float:right;border:2px solid #400;margin:10px 20px 20px 20px;}
+.winehed{margin:0px 50px;color:#005;font-weight:bold;}
+.winewrap{height:336px;}
+.wlist{line-height:136%;}
+.menuleft1 {margin-left:30px;z-index:0;float:left;position:absolute;top:142px;}
+.menuleft {margin:3px 0px 2px 33px;z-index:8;} 
+
+/*---------------- gift Card --------------*/
+.cardwrap{height:375px;}
+.cleft{width:300px;float:left;margin:5px 5px 5px 10px;}
+.cright{width:155px;margin:25px 10px 5px 5px;float:right;}
+.cardmid{width:256px;margin:5px 15px 5px 5px;float:right;}
+
+/*--------------- contact us----------------*/
+.phfax{line-height:150%;}
+.phfax a{text-decoration:none;}
+.cuswrap{height:286px;}
+
+/* ---------------- buy gift cards-------------*/
+.perror{color:red;margin-left:20px;}
+.buywrap{height:220px;}
+.buyl{width:400px;margin:10px 20px;float:left;}
+.buyr{width:300px;margin:5px;float:right;}
+.buy_info_label{width:169px; float:left; text-align:right; padding-right:5px;}
+.buy_next{height:30px; margin-left:43%;margin-top:15px;}
+.buyindicates{color:#a06;margin-left:10px;}
+.buyhed{margin:0px 20px;color:#612;font-weight:bold;}
+.cust_msg{margin:20px 10px;}
+.buyselect{margin-top:5px;}
+.erdiv {margin-bottom:5px;}
+.cardtbl{width:90%;margin:auto;}
+ .cardtbl td{padding:20px;}
+ .chindicates{color:#a06;margin-left:12%;}
+ /*------------------Items Cart-----------------*/
+ .itemstbl{width:85%;margin:10px auto 0px auto;}
+ .itemstbl td{padding:4px; text-align:center;}
+ .tpdis{width:15%;text-align:left;font-size:11px;}
+ .tpldis{width:60%;text-align:right;padding-right:10px;font-size:11px;}
+ .tpl{font-weight:bold;float:right;}
+ 
+ /*-----------Shippping Info------------------*/
+.shipwrap{height:440px;}
+.addleft{float:left; width:318px;margin-left:15px;}
+.addright{float:right; width:318px;margin-right:110px;}
+.addr{float:right; width:320px;margin-right:80px;}
+.addl{float:left; width:315px;margin-left:10px;}
+.addwrap1{height:135px;}
+.shipbs{margin-left:166px;}
+.adblist{margin-left:10px;}  
+.phonenum{margin-left:160px;font-size:10px;height:10px;} 
+.shipbg{background-color:#e6d183;margin:15px;border:1px solid #600;}
+.shipmsg{margin:5px 110px;font-size:11px;}
+/*------------Payment info ------------------*/
+.pay_info_row {height:27px;}
+.bainfo{font-size:11px;font-weight:bold;}
+.review{width:100%;font-size:.9em;margin-bottom:10px;border-collapse:collapse;}
+.review td{text-align:left;padding-left:20px;}
+/* -----------------my-home--------------*/
+.wl{margin-top:50px;margin-left:22%; width:250px;}
+
+/*---------------order_history/usersearch------*/
+.ou{width:92%;margin:20px auto 5px auto;font-size:12px;}
+.ou td{text-align:left;padding-left:4px;}
+.lr{width:88%;margin:20px auto 5px auto;font-size:12px;text-align:center;}
+
+
+th a{text-decoration:none;}
+th a:hover{color:#480100;}
+.bton{background-color:#480100;color:#f6e094;font-weight:bold;width:72px;border-style:none;text-align:center;}
+.ebton{background-color:#480100;color:#f6e094;font-weight:bold;width:30px;border-style:none;}
+td a{text-decoration:none;}
+/* --------------- news board ----------------*/
+
+.rqd_fields{color:#933;}
+.board_right{padding-left:153px;}
+.select_height{height:20px;margin-left:23px;}
+.rowbutton{height:40px;margin-top:18px;
+           padding-left:160px;}
+.update_msg{color:#006;
+            margin:20px 10px 4px 20px;}
+.update_msg a{margin-left:215px;}
+
+/*-------------- create account ---------- */
+.createbutton{margin:20px 0px 0px 159px;}
+
+/* -----------------login options--------------*/
+
+.returning_cust{width:400px; margin-left:100px;}
+.returning_cust h3 {margin-left:160px;}
+.returning_cust h4 {margin-left:160px;}
+.loginrc{margin-left:160px;}
+	   
+
+/*------------------forgot password---------*/
+.confirm{margin:20px;}

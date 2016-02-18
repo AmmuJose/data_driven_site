@@ -1,0 +1,57 @@
+/*----- Login Information Form--------- */
+
+.add_user_head {width:400px;
+                margin:10px 180px 20px 180px;
+               text-align:center;
+               font-family:sans-serif;}
+
+.addform{ width:500px;
+          margin-left:auto;
+          margin-right:auto;}                      
+ 
+.log_info_form {float:left;
+		width:350px;
+   		margin:10px 20px;}
+
+.log_info_row {height:21px;margin-top:10px;margin-bottom:8px;}
+.log_info_row2 {height:50px;margin-top:10px;margin-bottom:8px;}
+.log_info_label{width:154px;
+		        float:left;
+		        text-align:right;
+                padding-right:5px;}
+
+.log_info_submit{width:30px;}
+
+legend{font-weight:bold;
+       font-size:11px;color:#500;
+       padding:0px 5px 6px 0px;}
+
+.addbutton{margin-left:128px;
+           margin:20px 155px;}
+
+.backto{font-weight:bold;
+        font-size:11px;
+        color:#115;
+        margin-left:130px;
+        text-decoration:none;}
+
+.or{margin:0px 0px 4px 235px;color:#900;font-weight:bold;font-size:11px;}
+
+.order_date{margin:20px 0px 20px 91px; width:620px; height:26px;}
+.order_search{margin:15px 0px 0px 158px;}
+.checkboxlabel{width:324px;float:right;text-align:left;}
+.checkbox{float:right;		
+           padding-right:5px;}
+.newsbord{height:60px;}  
+ 
+/*------- add user------- */
+.adwrap{height:400px;}
+.leftlogin{float:left;width:358px;   
+     margin-left:30px;}
+
+#rightadd{float:right;width:360px; 
+       margin-right:20px;display:none;}      
+.chkadd{margin:30px 0px 0px 0px;}
+
+
+ 
